@@ -1,0 +1,23 @@
+cabal-version:      3.4
+name:               haskell-dibs
+version:            0.1.0.0
+homepage:           https://dibs.ravenhill.cl
+license:            BSD-3-Clause
+license-file:       LICENSE
+author:             Ignacio Slater-Muñoz
+maintainer:         reachme@ravenhill.cl
+copyright:          2025 Ignacio Slater-Muñoz
+category:           Educational
+build-type:         Simple
+extra-doc-files:    README.md
+
+common warnings
+    ghc-options: -Wall
+
+executable type-fundamentals
+    import:           warnings
+    main-is:          basics/Main.hs
+    hs-source-dirs:   type-fundamentals
+    build-depends:
+        base ^>=4.17.2.1
+    default-language: GHC2021

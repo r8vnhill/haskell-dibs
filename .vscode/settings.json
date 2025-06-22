@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#243202",
+        "titleBar.activeBackground": "#334603",
+        "titleBar.activeForeground": "#F5FEE0"
+    },
+    "cSpell.words": [
+        "foldr"
+    ]
+}
