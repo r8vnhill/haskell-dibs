@@ -2,7 +2,7 @@ cabal-version:      3.4
 name:               haskell-dibs
 version:            0.1.0.0
 homepage:           https://dibs.ravenhill.cl
-license:            BSD-3-Clause
+license:            BSD-2-Clause
 license-file:       LICENSE
 author:             Ignacio Slater-Muñoz
 maintainer:         reachme@ravenhill.cl
